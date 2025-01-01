@@ -16,7 +16,7 @@ import {
 
 export const MainSidebar = ({ children }) => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
   const [userRole, setUserRole] = useState(null);
   const [user, setUser] = useState(null);
 
